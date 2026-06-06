@@ -23,9 +23,9 @@ Your M3FD dataset must be organized exactly as follows:
 M3FD/
 ├── Annotation/
 │   ├── *.xml (Pascal VOC format annotations)
-├── VIS/
+├── Vis/
 │   ├── *.png or *.jpg (Visible spectrum images)
-└── IR/
+└── ir/
     ├── *.png or *.jpg (Infrared spectrum images)
 ```
 
@@ -110,7 +110,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
-Arsin Shaabani - [@ArsinShaabani](https://twitter.com/ArsinShaabani)
+Arsin Shaabani - [@ArsinShaabani](https://twitter.com/Arsin_Shaabani)
 
 Project Link: [https://github.com/ArsinShaabani/M3FD-YOLO-Converter](https://github.com/ArsinShaabani/M3FD-YOLO-Converter)
 
