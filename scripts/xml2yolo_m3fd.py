@@ -73,7 +73,7 @@ def walk_dataset():
 
             base = file.replace(".xml", "")
 
-            # پشتیبانی از PNG
+            # پشتیبانی از PNG , JPG
             img_png = os.path.join(VIS, base + ".png")
             img_jpg = os.path.join(VIS, base + ".jpg")
 
