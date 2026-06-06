@@ -117,4 +117,5 @@ Project Link: [https://github.com/ArsinShaabani/M3FD-YOLO-Converter](https://git
 ## 🙏 Acknowledgments
 
 - [M3FD Dataset](https://github.com/zjhmale/M3FD) for providing the multispectral thermal dataset
+- [M3FD Dataset on Kaggle](https://www.kaggle.com/datasets/nus1998/m3fd-dataset) for alternative dataset access
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) for the excellent object detection framework
