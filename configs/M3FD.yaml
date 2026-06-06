@@ -1,0 +1,15 @@
+# M3FD Dataset (Version 2) YOLO Format
+
+path: ../data/M3FD_yolo
+
+train: images/train
+val: images/val
+
+nc: 6
+names:
+  - People
+  - Car
+  - Bus
+  - Motorcycle
+  - Lamp
+  - Truck
