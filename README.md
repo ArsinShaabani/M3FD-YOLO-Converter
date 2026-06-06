@@ -37,11 +37,6 @@ M3FD/
    cd M3FD-YOLO-Converter
    ```
 
-2. **Install dependencies** (recommended in virtual environment)
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 3. **Configure dataset path**
    Edit `scripts/xml2yolo_m3fd.py` and set:
    ```python

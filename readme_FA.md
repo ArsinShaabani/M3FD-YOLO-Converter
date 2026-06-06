@@ -1,6 +1,6 @@
 # مبدل YOLO برای M3FD
 
-تبدیل مجموعه دادهٔ چندспектري M3FD (نسخه ۲) به قالب YOLO با تقسیم خودکار test/val و تولید برچسب‌های تمیز.
+تبدیل مجموعه دادهٔ  M3FD (نسخه ۲) به قالب YOLO با تقسیم خودکار test/val و تولید برچسب‌های تمیز.
 
 ![GitHub](https://img.shields.io/github/license/ArsinShaabani/M3FD-YOLO-Converter)
 ![GitHub stars](https://img.shields.io/github/stars/ArsinShaabani/M3FD-YOLO-Converter?style=social)
@@ -37,10 +37,6 @@ M3FD/
     cd M3FD-YOLO-Converter
     ```
 
-2. **نصب وابسته‌ها** (توصیه می‌شود در محیط مجازی)
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 3. **مسیر مجموعه داده را تنظیم کنید**
     فایل `scripts/xml2yolo_m3fd.py` را ویرایش و مقدار زیر را تنظیم کنید:
@@ -75,7 +71,7 @@ M3FD_yolo/
 
 ## 📊 بصری‌سازی مجموعه داده
 
-نمونهای تبدیل‌شده را با دفترچهٔ Jupyter見てی探索 کنید:
+نمونهای تبدیل‌شده را با  Jupyter notebook جستار کنید:
 ```bash
 jupyter notebook notebooks/visualize_samples.ipynb
 ```
@@ -97,15 +93,6 @@ yolo train model=yolov8n.pt data=configs/M3FD.yaml epochs=50 imgsz=640
 
 این پروژه تحت مجوز MIT licencia است - برای جزئیات فایل [LICENSE](LICENSE) را ببینید.
 
-## 🤝 مشارکت
-
-مشارکت‌ها خوش‌آمد هستند! لطفاً بحرية یک Pull Request ارسال کنید.
-
-1. Fork مخزن
-2. شاخهٔ ویژگی خود را ایجاد کنید (`git checkout -b feature/AmazingFeature`)
-3. تغییرات خود را 커밋 کنید (`git commit -m 'Add some AmazingFeature'`)
-4. به شاخه خود Push کنید (`git push origin feature/AmazingFeature`)
-5. یک Pull Request باز کنید
 
 ## 📧 تماس
 
@@ -115,6 +102,6 @@ Arsin Shaabani - [@ArsinShaabani](https://twitter.com/Arsin_Shaabani)
 
 ## 🙏 تشکر
 
-- [مجموعه دادهٔ M3FD](https://github.com/zjhmale/M3FD) برای ارائه مجموعه دادهٔ چندспектري حرارتی
+
 - [مجموعه دادهٔ M3FD در Kaggle](https://www.kaggle.com/datasets/nus1998/m3fd-dataset) برای دسترسی جایگزین به داده
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) برای چارچوب عالی تشخیص اشیا
